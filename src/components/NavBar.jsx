@@ -10,6 +10,7 @@ export default function Navbar() {
             <li><Link to="/register">Register for Event</Link></li>
             <li><Link to="/leaderboard">Leaderboard</Link></li>
             <li><Link to="/schedule">Event Schedule</Link></li>
+            <li><Link to="/discussion">Discussion Board</Link></li>
         </ul>
     </nav>
     );
