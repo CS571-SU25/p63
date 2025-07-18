@@ -7,6 +7,7 @@ import EventRegistration from './components/EventRegistration';
 import Leaderboard from './components/Leaderboard';
 import EventSchedule from './components/EventSchedule';
 import DiscussionBoard from './components/DiscussionBoard';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/schedule" element={<EventSchedule />} />
           <Route path="/discussion" element={<DiscussionBoard />} />
         </Routes>
+        <Footer />
       </main>
     </Router>
   );
